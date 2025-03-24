@@ -163,24 +163,7 @@ const Navbar = () => {
                 <FaProjectDiagram className="mr-2" /> Projects
               </Link>
             </li>
-            <li className="group">
-              <Link
-                to="/skills"
-                onClick={() => setIsOpen(false)}
-                className={navItemClass + " text-center"}
-              >
-                <FaCode className="mr-2" /> Skills
-              </Link>
-            </li>
-            <li className="group">
-              <Link
-                to="/contact"
-                onClick={() => setIsOpen(false)}
-                className={navItemClass + " text-center"}
-              >
-                <FaEnvelope className="mr-2" /> Contact
-              </Link>
-            </li>
+            
             <li className="group relative">
               <button onClick={() => setIsDropdownOpen(!isDropdownOpen)} className="flex items-center text-black hover:text-blue-600 block py-2">
                 <FaCode className="mr-2" /> Coding Profiles
