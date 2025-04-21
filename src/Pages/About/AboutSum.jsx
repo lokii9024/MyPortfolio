@@ -28,7 +28,7 @@ const AboutSum = () => {
               <li>➜ Watching Movies</li>
             </ul>
             <blockquote className="italic text-blue-500 mb-4">
-              &quot;Strive to build things that make a difference!&quot; <br />— Lokesh
+              &quot;Aim to create solutions that inspire positive change!&quot; <br />— Lokesh
             </blockquote>
           </div>
 
