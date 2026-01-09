@@ -32,23 +32,20 @@ const Home = () => (
         I'm a CSE undergraduate student at NIT Bhopal.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-4">
-        <button className="inline-block bg-black text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition-colors">
           <a
-          href="/files/lokesh_nitb.pdf"
+          href="https://drive.google.com/file/d/11iuBVPLXdvPpqWdDNOvx41-APrDQ2oXJ/view?usp=sharing"
           target="_blank"
           className="inline-block bg-black text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition-colors"
         >
           Resume
         </a>
-        </button>
-        <button className="inline-block bg-black text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition-colors">
           <a
           href="https://www.linkedin.com/in/lokesh-vaishnav-289615295"
+          target = "_blank"
           className="inline-block bg-black text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition-colors"
         >
           Hire Me
         </a>
-        </button>
       </div>
     </div>
   </div>
