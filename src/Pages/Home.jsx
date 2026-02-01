@@ -2,12 +2,13 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "../styles.css";
 import avatar from "../../src/assets/avatar.png"
+import photo from "../../src/assets/photo.png"
 
 const Home = () => (
   <div className="bg-slate-100 flex flex-col md:flex-row items-center justify-center min-h-screen p-6">
     <div className="md:w-1/3 flex justify-center">
       <img
-        src={avatar}
+        src={photo}
         alt="Profile"
         className="rounded-full border-solid-black w-48 h-48 shadow-lg"
       />
@@ -15,7 +16,7 @@ const Home = () => (
     <div className="md:w-2/3 text-center md:text-left">
       <h1 className="text-4xl font-bold">
         Hello!<span className="wave">👋</span>, I'M{" "}
-        <span className="text-blue-700">LOKESH VAISHNAV</span>
+        <span className="text-blue-700 font-serif">LOKESH VAISHNAV</span>
       </h1>
       <h2 className="text-3xl text-blue-500 mt-2">
         <Typewriter
